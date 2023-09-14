@@ -1,0 +1,18 @@
+body {
+    color: white;
+}
+
+.prod{
+    display: grid;
+    grid-column: 1 / span 2;
+}
+
+.prod_1 h1 , p{
+    font-size: 1rem;
+
+}
+
+.prod_3 {
+    width: 10rem;
+}
+

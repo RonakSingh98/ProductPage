@@ -1,0 +1,12 @@
+.blog_title  h1 {
+    color: white;
+    font-size: 6rem;
+}
+
+.blog_headings a{
+    color: white;
+    text-decoration: none;
+}
+.blog_headings {
+    display: block;
+}
