@@ -21,12 +21,12 @@ return (
     {user.map((data)=>{
       return(
         <div className='prod'>
-        {/* <div key={data.id}> */}
+        <div key={data.id}>
         <div className='prod_1'>
-          <h2 className='prod_2'>{data.title}</h2>
+          <div><h2 className='prod_2'>{data.title}</h2>
           <img className='prod_3' src={data.image}/>
-          <p className='prod_4'> {data.description}</p>
-          {/* </div> */}
+          <p className='prod_4'> {data.description}</p></div>
+          </div>
           </div>
           </div>
       )
