@@ -3,10 +3,20 @@
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
+    height: 30rem;
+}
+.form a{
+    display:grid;
+    
 }
 
-.a {
+/* .a {
     width: 30rem;
     height: 4rem;
     position: absolute;
+} */
+
+.main {
+margin-top: 10rem;
+background-color: gray;
 }

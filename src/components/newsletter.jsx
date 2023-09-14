@@ -3,7 +3,7 @@ import './newsletter.css'
 import { connect } from './import'
 export const Newsletter = () => {
   return (
-    <div>
+    <div className='main'>
       <h1>Newsletter</h1>
       <img src={connect}></img>
       <h3>Get news about articles and info in your inbox</h3>

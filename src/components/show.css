@@ -1,4 +1,19 @@
 .left {
-    display: flex;
+    display: grid;
     position: relative;
+    padding-top: 20%;
+    z-index: 1;
+    grid-column: 1;
+    grid-row: 1;
+}
+.right {
+    display: grid;
+    position:relative;
+ grid-column: 4/-1;
+ grid-row: 1;
+}
+
+.show {
+    background-color: black;
+    
 }

@@ -44,3 +44,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,40,22,1) 79%, rgba
     display: grid;
     
 }
+
+.nav{
+    background-color: black;
+}
